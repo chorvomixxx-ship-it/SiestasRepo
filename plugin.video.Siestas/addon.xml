@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.0.0" provider-name="Siestas">
+<?xml version="5.2.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.2.0" provider-name="Siestas">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="es_es">Tu videoclub personal de películas y series en castellano</summary>
-        <description lang="es_es">SIESTAS: Tu videoclub personal con miles de películas organizadas por géneros, sagas, estrenos y rankings. Búsqueda avanzada por título, actor, director y año. Sistema de favoritos integrado. Integración con Elementum y metadatos TMDB. Compatible con Kodi 21 Omega.</description>
+        <summary lang="es_es">Tu videoclub personal de películas, series y documentales en castellano</summary>
+        <description lang="es_es">SIESTAS: Tu videoclub personal con miles de películas, series y documentales organizados por géneros, estrenos y rankings. Búsqueda avanzada por título, actor, director y año. Sistema de favoritos y seguimiento de contenido visto integrado. Integración con Elementum y metadatos TMDB. Compatible con Kodi 21 Omega.</description>
         <platform>all</platform>
         <assets>
             <icon>portada.jpg</icon>
