@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.5.0" provider-name="Siestas">
+<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.5.1" provider-name="Siestas">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="plugin.video.elementum" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -18,7 +19,6 @@
         </assets>
     </extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.siestas" name="Siestas Repository" version="1.0.3" provider-name="Siestas">
     <extension point="xbmc.addon.repository" name="Siestas Repository">
         <dir>
