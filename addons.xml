@@ -14,7 +14,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.6.1" provider-name="Siestas">
+<addon id="plugin.video.Siestas" name="[COLOR darkorange][B]SIESTAS[/B][/COLOR]" version="5.6.2" provider-name="Siestas">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="plugin.video.elementum" optional="true" />
